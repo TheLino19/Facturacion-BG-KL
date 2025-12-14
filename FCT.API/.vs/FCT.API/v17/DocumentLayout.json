@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1554D9B-8ECC-4F9A-A1A6-E79862FEEA5F}|FCT.API.csproj|c:\\users\\vivobook\\documents\\facturacion-bg-kl\\fct.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1554D9B-8ECC-4F9A-A1A6-E79862FEEA5F}|FCT.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416D5CE7-E7CA-461F-A7FC-76E7C629E452}|..\\FCT.INFRA\\FCT.INFRA.csproj|c:\\users\\vivobook\\documents\\facturacion-bg-kl\\fct.infra\\fct.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE407DC6-1907-4ADB-A8E1-BF6F10FEFEB2}|..\\FCT.DAC\\FCT.DAC.csproj|c:\\users\\vivobook\\documents\\facturacion-bg-kl\\fct.dac\\fct.dac.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835619F7-BF6D-4960-8133-6AE08980552E}|..\\FCT.BL\\FCT.BL.csproj|c:\\users\\vivobook\\documents\\facturacion-bg-kl\\fct.bl\\fct.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD0F6E3D-A292-4DB9-89B0-00BA9BA0FB48}|..\\FCT.BE\\FCT.BE.csproj|c:\\users\\vivobook\\documents\\facturacion-bg-kl\\fct.be\\fct.be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1554D9B-8ECC-4F9A-A1A6-E79862FEEA5F}|FCT.API.csproj|c:\\users\\vivobook\\documents\\facturacion-bg-kl\\fct.api\\fct.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E1554D9B-8ECC-4F9A-A1A6-E79862FEEA5F}|FCT.API.csproj|solutionrelative:fct.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE407DC6-1907-4ADB-A8E1-BF6F10FEFEB2}|..\\FCT.DAC\\FCT.DAC.csproj|c:\\users\\vivobook\\documents\\facturacion-bg-kl\\fct.dac\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 629,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:08:42.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FCT.INFRA",
+              "DocumentMoniker": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.INFRA\\FCT.INFRA.csproj",
+              "RelativeDocumentMoniker": "..\\FCT.INFRA\\FCT.INFRA.csproj",
+              "ToolTip": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.INFRA\\FCT.INFRA.csproj",
+              "RelativeToolTip": "..\\FCT.INFRA\\FCT.INFRA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T07:05:40.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FCT.DAC",
+              "DocumentMoniker": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.DAC\\FCT.DAC.csproj",
+              "RelativeDocumentMoniker": "..\\FCT.DAC\\FCT.DAC.csproj",
+              "ToolTip": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.DAC\\FCT.DAC.csproj",
+              "RelativeToolTip": "..\\FCT.DAC\\FCT.DAC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T07:04:10.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FCT.BE",
+              "DocumentMoniker": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.BE\\FCT.BE.csproj",
+              "RelativeDocumentMoniker": "..\\FCT.BE\\FCT.BE.csproj",
+              "ToolTip": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.BE\\FCT.BE.csproj",
+              "RelativeToolTip": "..\\FCT.BE\\FCT.BE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T06:47:40.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FCT.BL",
+              "DocumentMoniker": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.BL\\FCT.BL.csproj",
+              "RelativeDocumentMoniker": "..\\FCT.BL\\FCT.BL.csproj",
+              "ToolTip": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.BL\\FCT.BL.csproj",
+              "RelativeToolTip": "..\\FCT.BL\\FCT.BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T06:45:29.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FCT.API",
+              "DocumentMoniker": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.API\\FCT.API.csproj",
+              "RelativeDocumentMoniker": "FCT.API.csproj",
+              "ToolTip": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.API\\FCT.API.csproj",
+              "RelativeToolTip": "FCT.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T06:45:09.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.DAC\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\FCT.DAC\\Class1.cs",
+              "ToolTip": "C:\\Users\\VivoBook\\Documents\\Facturacion-BG-KL\\FCT.DAC\\Class1.cs",
+              "RelativeToolTip": "..\\FCT.DAC\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T06:43:49.901Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
