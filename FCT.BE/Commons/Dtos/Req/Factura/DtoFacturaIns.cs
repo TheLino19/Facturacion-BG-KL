@@ -15,6 +15,7 @@ namespace FCT.BE.Commons.Dtos.Req.Factura
         public int UsuarioId { get; set; }
         public decimal Total {  get; set; }
         public string TipoPago { get; set; }
+        public string EstadoPago { get; set; }
 
     }
 }

@@ -8,7 +8,6 @@ namespace FCT.DAC.Helpers.Utils
 {
     public static class Parameters
     {
-        //Usuario
         public const string Id = "@Id";
         public const string Username = "@Username";
         public const string PasswordHash = "@PasswordHash";
@@ -26,6 +25,23 @@ namespace FCT.DAC.Helpers.Utils
         public const string Telefono = "@Telefono";
         public const string Direccion = "@Direccion";
 
+        public const string NumeroFactura = "@NumeroFactura";
+        public const string ClienteId = "@ClienteId";
+        public const string UsuarioId = "@UsuarioId";
+        public const string Total = "@Total";
+        public const string TipoPago = "@TipoPago";
+        public const string EstadoPago = "@EstadoPago";
+
+        public const string FacturaId = "@FacturaId";
+        public const string ProductoId = "@ProductoId";
+        public const string Cantidad = "@Cantidad";
+        public const string PrecioUnitario = "@PrecioUnitario";
+        public const string SubTotal = "@SubTotal";
+
+        public const string FacturaDetalleId = "@FacturaDetalleId";
+        public const string FiltroIDFactura = "@FiltroIDFactura";
+
+        public const string Codigo = "@Codigo";
 
     }
 }

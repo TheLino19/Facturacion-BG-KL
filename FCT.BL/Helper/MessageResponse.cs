@@ -16,5 +16,18 @@ namespace FCT.BL.Helper
         public const string UsuarioModificado = "Usuario Modificado";
         public const string UsuarioEliminado = "Usuario Eliminado";
         public const string UsuarioError = "Usuario fuera del Rango";
+
+        public const string FacturaCorrecto = "Factura Registrada";
+        public const string FacturaError = "Factura fuera del Rango";
+        public const string FacturaEmpty = "Factura no se encuentra en la BD";
+        public const string FacturaEliminada = "Factura Eliminada";
+
+        public const string DetallesCorrecto = "Detalles Registrada";
+        public const string DetallesError = "Detalles fuera del Rango";
+        public const string DetallesEmpty = "Detalles no se encuentra en la BD";
+        public const string DetallesEliminada = "Detalles Eliminada";
+
+        public const string SinDetalles = "No existen detalles por actualizar";
+
     }
 }

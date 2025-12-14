@@ -10,10 +10,10 @@ namespace FCT.BE.Commons.Helpers
     {
         public FiltroFactura() { }
 
-        public string FiltroNumeroFactura { get; set; }
-        public DateTime FiltroFecha { get; set; }
-        public decimal FiltroMonto { get; set; }
-        public bool FiltroEstado { get; set; }
+        public string? FiltroNumeroFactura { get; set; } 
+        public DateTime? FiltroFecha { get; set; } 
+        public decimal? FiltroMonto { get; set; }
+        public bool? FiltroEstado { get; set; }
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 10;
 

@@ -20,5 +20,13 @@ namespace FCT.DAC.Helpers.Utils
         public const string SP_ObtenerClienteId = "SP_ObtenerClienteId";
         public const string SP_ObtenerClientes = "SP_ObtenerClientes";
 
+        public const string SP_EliminarFacturasDetalles = "SP_EliminarFacturasDetalles";
+        public const string SP_InsertarFacturas = "SP_InsertarFacturas";
+        public const string SP_InsertarFacturasDetalles = "SP_InsertarFacturasDetalles";
+        public const string SP_ObtenerFacturaCabId = "SP_ObtenerFacturaCabId";
+        public const string SP_ObtenerFacturaDetaId = "SP_ObtenerFacturaDetaId";
+        public const string SP_ObtenerFacturas = "SP_ObtenerFacturas";
+        public const string SP_EliminarFactura = "SP_EliminarFactura";
+
     }
 }

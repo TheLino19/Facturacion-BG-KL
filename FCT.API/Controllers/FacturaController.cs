@@ -22,12 +22,6 @@ namespace FCT.API.Controllers
             return await _facturaServices.CrearFactura(dtoFactura);
         }
 
-        [HttpPost("EditarFactura")]
-        public async Task<ResponseModel<string>> InsertarDetalleFactura([FromBody] DtoFacturaEdit dtoFacturaEdit)
-        {
-            return await _facturaServices.InsertarDetalleFactura(dtoFacturaEdit);
-        }
-
         [HttpPost("ObtenerFactura")]
         public async Task<ResponseModel<DtoFacturaResp>> ObtenerFactura(int Id)
         {
@@ -42,7 +36,19 @@ namespace FCT.API.Controllers
         [HttpPost("EliminarFactura")]
         public async Task<ResponseModel<int>> EliminarFactura(int Id)
         {
-            return await _facturaServices.EliminarFacturas(Id);
+            return await _facturaServices.EliminarFactura(Id);
+        }
+
+        [HttpPost("InsertarDetalleFactura")]
+        public async Task<ResponseModel<string>> InsertarDetalleFactura([FromBody] List<DtoFacturaEdit> dtoFacturaEdit)
+        {
+            return await _facturaServices.InsertarDetalleFactura(dtoFacturaEdit);
+        }
+
+        [HttpPost("EliminarDetalleFactura")]
+        public async Task<ResponseModel<int>> EliminarDetalleFactura(int Id)
+        {
+            return await _facturaServices.EliminarDetalleFactura(Id);
         }
     }
 }
