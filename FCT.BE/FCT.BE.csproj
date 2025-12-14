@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commons\Helpers\" />
     <Folder Include="Commons\Enums\" />
     <Folder Include="Commons\Utils\" />
   </ItemGroup>

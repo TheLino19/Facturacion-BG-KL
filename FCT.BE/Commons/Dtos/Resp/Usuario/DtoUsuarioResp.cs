@@ -8,6 +8,10 @@ namespace FCT.BE.Commons.Dtos.Resp.Usuario
 {
     public class DtoUsuarioResp
     {
+        public DtoUsuarioResp()
+        {
+            
+        }
         public DtoUsuarioResp(int idUsuario, string nombres, string userName, string email, string rol, bool activo, DateTime fechaCreacion)
         {
             IdUsuario = idUsuario;

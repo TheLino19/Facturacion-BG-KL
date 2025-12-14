@@ -17,6 +17,10 @@ namespace FCT.DAC.Helpers.Utils
         public const string Email = "@Email";
         public const string Rol = "@Rol";
 
+        public const string FiltroEstado = "@FiltroEstado";
+        public const string PageNumber = "@PageNumber";
+        public const string PageSize = "@PageSize";
+
 
     }
 }

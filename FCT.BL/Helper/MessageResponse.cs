@@ -14,6 +14,7 @@ namespace FCT.BL.Helper
 
         public const string UsuarioCorrecto = "Usuario Registrado";
         public const string UsuarioModificado = "Usuario Modificado";
+        public const string UsuarioEliminado = "Usuario Eliminado";
         public const string UsuarioError = "Usuario fuera del Rango";
     }
 }

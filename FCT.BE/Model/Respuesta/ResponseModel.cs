@@ -16,6 +16,12 @@ namespace FCT.BE.Model.Respuesta
             Data = data;
             Errors = errors;
         }
+
+        public ResponseModel(bool succefull, string message)
+        {
+            Success = succefull;
+            Message = message;
+        }
         public bool Success { get; set; } = true;
         public string Message { get; set; } = string.Empty;
         public T? Data { get; set; } 
