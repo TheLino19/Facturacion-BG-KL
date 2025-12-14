@@ -28,5 +28,11 @@ namespace FCT.DAC.Helpers.Utils
         public const string SP_ObtenerFacturas = "SP_ObtenerFacturas";
         public const string SP_EliminarFactura = "SP_EliminarFactura";
 
+
+        public const string SP_InsertarProducto = "SP_InsertarProducto";
+        public const string SP_EditarProducto = "SP_EditarProducto";
+        public const string SP_EliminarProducto = "SP_EliminarProducto";
+        public const string SP_ObtenerProductoId = "SP_ObtenerProductoId";
+        public const string SP_ObtenerProductos = "SP_ObtenerProductos";
     }
 }

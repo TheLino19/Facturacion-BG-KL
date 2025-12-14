@@ -1,5 +1,6 @@
 ﻿using FCT.BL.Services.Cliente;
 using FCT.BL.Services.Factura;
+using FCT.BL.Services.Producto;
 using FCT.BL.Services.Usuario;
 using FCT.BL.Validator;
 using FluentValidation;
@@ -19,6 +20,7 @@ namespace FCT.BL.Extensions
             services.AddTransient<IUsuarioServices, UsuarioServices>();
             services.AddTransient<IClienteServices, ClienteServices>();
             services.AddTransient<IFacturaServices, FacturaServices>();
+            services.AddTransient<IProductoServices, ProductoServices>();
             return services;
         }
     }

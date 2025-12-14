@@ -29,5 +29,10 @@ namespace FCT.BL.Helper
 
         public const string SinDetalles = "No existen detalles por actualizar";
 
+        public const string ProductoCorrecto = "Producto Registrado";
+        public const string ProductoModificado = "Producto Modificado";
+        public const string ProductoEliminado = "Producto Eliminado";
+        public const string ProductoError = "Producto fuera del Rango";
+
     }
 }

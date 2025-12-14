@@ -42,6 +42,9 @@ namespace FCT.DAC.Helpers.Utils
         public const string FiltroIDFactura = "@FiltroIDFactura";
 
         public const string Codigo = "@Codigo";
+        public const string FiltroFecha = "@FiltroFecha";
+        public const string FiltroNumeroFactura = "@FiltroNumeroFactura";
+        public const string FiltroMonto = "@FiltroMonto";
 
     }
 }

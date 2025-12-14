@@ -1,5 +1,6 @@
 ﻿using FCT.DAC.Repositorios.Cliente;
 using FCT.DAC.Repositorios.Factura;
+using FCT.DAC.Repositorios.Producto;
 using FCT.DAC.Repositorios.Usuario;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -17,6 +18,7 @@ namespace FCT.DAC.Extension
             services.AddTransient<IUsuarioRepository, UsuarioRepository>();
             services.AddTransient<IClienteRepository, ClienteRepository>();
             services.AddTransient<IFacturaRepository, FacturaRepository>();
+            services.AddTransient<IProductoRepository, ProductoRepository>();
             return services;
         }
     }
