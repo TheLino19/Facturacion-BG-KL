@@ -9,9 +9,7 @@
   <ItemGroup>
     <Folder Include="Commons\Helpers\" />
     <Folder Include="Commons\Enums\" />
-    <Folder Include="Commons\Dtos\" />
     <Folder Include="Commons\Utils\" />
-    <Folder Include="Model\" />
   </ItemGroup>
 
 </Project>
