@@ -1,13 +1,8 @@
-﻿using FCT.BL.Services.Usuario;
+﻿using FCT.BL.Services.Cliente;
+using FCT.BL.Services.Usuario;
 using FCT.BL.Validator;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FCT.BL.Extensions
 {
@@ -16,7 +11,12 @@ namespace FCT.BL.Extensions
         public static IServiceCollection AddInjectionBL(this IServiceCollection services)
         {
             services.AddValidatorsFromAssemblyContaining<UsuarioRequestValidator>();
+            services.AddValidatorsFromAssemblyContaining<UsuarioEditValidator>();
+            services.AddValidatorsFromAssemblyContaining<ClienteEditValidator>();
+            services.AddValidatorsFromAssemblyContaining<ClienteReqValidator>();
+
             services.AddTransient<IUsuarioServices, UsuarioServices>();
+            services.AddTransient<IClienteServices, ClienteServices>();
             return services;
         }
     }

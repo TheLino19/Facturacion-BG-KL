@@ -1,4 +1,5 @@
-﻿using FCT.DAC.Repositorios.Usuario;
+﻿using FCT.DAC.Repositorios.Cliente;
+using FCT.DAC.Repositorios.Usuario;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace FCT.DAC.Extension
         public static IServiceCollection AddInjectionDAC(this IServiceCollection services)
         {
             services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            services.AddTransient<IClienteRepository, ClienteRepository>();
             return services;
         }
     }

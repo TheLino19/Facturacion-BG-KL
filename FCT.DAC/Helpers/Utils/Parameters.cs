@@ -21,6 +21,11 @@ namespace FCT.DAC.Helpers.Utils
         public const string PageNumber = "@PageNumber";
         public const string PageSize = "@PageSize";
 
+        public const string Idenntificacion = "@Identificacion";
+        public const string TipoIdenntificacion = "@TipoIdentificacion";
+        public const string Telefono = "@Telefono";
+        public const string Direccion = "@Direccion";
+
 
     }
 }

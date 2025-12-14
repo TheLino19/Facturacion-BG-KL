@@ -4,32 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FCT.BE.Commons.Dtos.Req
+namespace FCT.BE.Commons.Dtos.Req.Cliente
 {
-    public class ClienteDtoReq
+    public class DtoClienteEdit
     {
-        public ClienteDtoReq(
-            string identificacion,
-            string tipoIdentificacion,
+        public DtoClienteEdit(
+            int id,
             string nombre,
             string telefono,
             string email,
-            string direccion) 
+            string direccion)
         {
-            Identificacion = identificacion;
-            TipoIdentifiacion = tipoIdentificacion;
+            Id = id;
             Nombre = nombre;
             Telefono = telefono;
             Email = email;
             Direccion = direccion;
         }
 
-        public string Identificacion { get; set; }
-        public string TipoIdentifiacion { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Telefono { get; set; }
         public string Email { get; set; }
         public string Direccion { get; set; }
-
     }
 }
