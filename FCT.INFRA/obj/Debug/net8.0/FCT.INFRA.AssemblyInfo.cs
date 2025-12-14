@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FCT.INFRA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3acdb4b7e64ad57ab8fa629047e7ec78dc79598b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a863b225b733b86ec710a78f97af54360f1e84ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("FCT.INFRA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FCT.INFRA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
