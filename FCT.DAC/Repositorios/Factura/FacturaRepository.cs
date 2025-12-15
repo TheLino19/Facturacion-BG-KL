@@ -54,7 +54,8 @@ namespace FCT.DAC.Repositorios.Factura
                 new SqlParameter(Parameters.PrecioUnitario, dtoFacturaEdit.PrecioUnitario),
                 new SqlParameter(Parameters.SubTotal, dtoFacturaEdit.SubTotal),
             };
-            return await ExecuteQuery.ExecuteNonQueryAsync(parameters, StoredProcedure.SP_InsertarFacturasDetalles);
+            int resp = await ExecuteQuery.ExecuteNonQueryAsync(parameters, StoredProcedure.SP_InsertarFacturasDetalles);
+            return resp;
         }
 
         public async Task<DtoFacturaResp> ObtenerFactura(int Id)

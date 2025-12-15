@@ -115,7 +115,7 @@ namespace FCT.BL.Services.Factura
             ResponseModel<string> responseModel = new ResponseModel<string>();
             try
             {
-                if(dtoFacturaEdit.Count > 0)
+                if(dtoFacturaEdit.Count ==  0)
                     return new ResponseModel<string>(false, MessageResponse.SinDetalles);
                 
                 foreach(DtoFacturaEdit dtoFactura in dtoFacturaEdit)

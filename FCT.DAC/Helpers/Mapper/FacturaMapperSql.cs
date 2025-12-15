@@ -33,12 +33,12 @@ namespace FCT.DAC.Helpers.Mapper
 
         public static List<DtoDetalleFactura> MapearDeta(DataTable dataTable)
         {
-            List<DtoDetalleFactura> lista = null;
+            List<DtoDetalleFactura> lista = new List<DtoDetalleFactura>();
             foreach (DataRow row in dataTable.Rows)
             {
                 DtoDetalleFactura Detalles = new DtoDetalleFactura
                 {
-                    FacturaDetalleId = row["FacturaDetalleId"] != DBNull.Value ? Convert.ToInt32(row["FacturaDetalleId"]) : 0,
+                    FacturaDetalleId = row["DetalleId"] != DBNull.Value ? Convert.ToInt32(row["DetalleId"]) : 0,
                     Codigo = row["Codigo"] != DBNull.Value ? row["Codigo"].ToString() : string.Empty,
                     Cantidad = row["Cantidad"] != DBNull.Value ? Convert.ToInt32(row["Cantidad"]) : 0,
                     Descripcion = row["Descripcion"] != DBNull.Value ? row["Descripcion"].ToString() : string.Empty,
